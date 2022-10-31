@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Week2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Week2\" />
+  </ItemGroup>
 </Project>
