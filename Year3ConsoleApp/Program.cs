@@ -4,10 +4,10 @@ using Year3ConsoleApp.Basics;
 using Year3ConsoleApp.Testing;
 
 using Year3ConsoleApp.Week2;
-
+using Year3ConsoleApp.Week3;
 
 ////getting input from users
-//// Declare variables and then initialize to zero.
+// //Declare variables and then initialize to zero.
 //int num1 = 0; int num2 = 0;
 
 //// Display title as the C# console calculator app.
@@ -80,7 +80,28 @@ using Year3ConsoleApp.Week2;
 //ControlStatemnet.Greater(a, b);
 
 
+
 //ControlStatemnet.SwitchCase();
 //ControlStatemnet.DoWhileStatement();
-ControlStatemnet.ForEachStatemnet();
+//ControlStatemnet.ForEachStatemnet();
 
+//Console.WriteLine("Please enter a number to check Prime number");
+//int a =Convert.ToInt32(Console.ReadLine());
+//Week3Task.Prime(a);
+
+//Console.WriteLine("Please enter a number");
+//int a = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Please enter another number");
+//int b = Convert.ToInt32(Console.ReadLine());
+//Week3Task.Swap(a, b);
+string[] a = new string[] {"a","b","c","e"};
+Console.WriteLine("Please enter a value to search");
+string value = Console.ReadLine();
+if (value == "")
+{
+    Console.WriteLine("Empty value cannot be found");
+}
+else
+{
+Week3Task.Search(a, value);
+}
